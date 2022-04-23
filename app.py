@@ -91,6 +91,7 @@ def quizGreeks():
         
         if checkEquality and bothTypes:
             bothTypes = False # Do not check bothTypes if checkEquality
+            selectType = random.choice(['european', 'american'])
 
 
         isTrue = None
