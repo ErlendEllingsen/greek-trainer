@@ -88,6 +88,9 @@ def quizGreeks():
 
         # 10% chance for equality check
         checkEquality = random.random() <= 0.175
+        
+        if checkEquality and bothTypes:
+            bothTypes = False # Do not check bothTypes if checkEquality
 
 
         isTrue = None
