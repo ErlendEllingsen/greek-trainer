@@ -87,7 +87,7 @@ def quizGreeks():
         selectType = None if bothTypes else random.choice(['european', 'american'])
 
         # 10% chance for equality check
-        checkEquality = random.random() <= 0.10
+        checkEquality = random.random() <= 0.175
 
 
         isTrue = None
