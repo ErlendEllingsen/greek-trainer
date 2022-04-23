@@ -146,7 +146,7 @@ def quizGreeks():
 
         if checkEquality:
             questionWording += "equal"
-            optionWording = "options"
+            optionWording = "calls and puts"
         else:
             if positiveCheck:
                 positiveWord = random.choice(['Positive', 'Non-negative'])
